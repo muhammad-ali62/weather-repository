@@ -17,7 +17,7 @@ body {
 
 .container {
     width: 500px;
-    height: 600px;
+    height: 580px;
     padding: 28px;
     background-color: white;
     border: solid black;
@@ -81,4 +81,17 @@ body {
 .weather-body .day p span {
      font-weight: bold;  
     font-size: 20px;   /
+}
+.location-not-found{
+    margin-top: 20px;
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location-not-found h3{
+    font-size: 15px;
+    color: black;
+    margin-block-end: 15px;
 }
